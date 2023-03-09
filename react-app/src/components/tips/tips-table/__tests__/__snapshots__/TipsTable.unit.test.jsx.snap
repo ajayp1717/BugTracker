@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TipsTable matches snapshot 1`] = `
+<div
+  className="content"
+>
+  <table
+    className="table is-bordered is-striped"
+    id="tips-table"
+  >
+    <thead>
+      <tr
+        className="header-row"
+      >
+        <th
+          className="is-hidden-touch"
+        >
+          Event Type
+        </th>
+        <th>
+          UA
+        </th>
+        <th>
+          Event Title
+        </th>
+        <th
+          className="is-hidden-touch"
+        >
+          Tags
+        </th>
+        <th>
+          Created On
+        </th>
+        <th
+          className="is-hidden-touch"
+        >
+          View
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td
+          colSpan="6"
+        >
+          This project hasn't received any Tips yet. You can refer to the Setup Guide to get started.
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+`;

@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProtectedRoute redirects when user not authenticated matches snapshot 1`] = `null`;
+
+exports[`ProtectedRoute render protected component for logged in user matches snapshot 1`] = `
+<div>
+  <div
+    className="container is-fluid"
+    id="app-container"
+  >
+    <div
+      style={
+        Object {
+          "padding": "1em 0em",
+        }
+      }
+    >
+      <h1
+        className="title is-2 pageTitle"
+      />
+    </div>
+  </div>
+</div>
+`;

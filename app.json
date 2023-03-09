@@ -1,0 +1,30 @@
+{
+    "description": "An open source front-end monitoring platform",
+    "env": {
+        "JWT_SECRET_KEY": {
+            "description": "A secret key used to encrypt the passwords",
+            "required": true,
+            "value": ""
+        },
+        "MONGODB_URI": {
+            "description": "URL of the mongoDB database connection to store the Tips. If you don't already have mongoDB, you can get it for free at https://www.mongodb.com/cloud/atlas ",
+            "required": true,
+            "value": ""
+        },
+        "NODE_ENV": {
+            "description": "Environment variable for node",
+            "required": true,
+            "value": "production"
+        },
+        "NOTIFIER_API_KEY_SENDGRID": {
+            "description": "SendGrid API key to send emails. Key can be generated using a free plan here https://sendgrid.com/pricing/",
+            "required": true,
+            "value": ""
+        },
+        "NOTIFIER_FROM_EMAIL_SENDGRID": {
+            "description": "'from' email address that is *verified* on SendGrid and can be used to send Tip email notifications",
+            "required": true,
+            "value": ""
+        }
+    }
+  }
